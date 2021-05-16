@@ -1,10 +1,6 @@
 Wednesdaydudecoin Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/wednesdaydudecoin-project/wednesdaydudecoin.svg?branch=master)](https://travis-ci.org/wednesdaydudecoin-project/wednesdaydudecoin)
-
-https://wednesdaydudecoin.org
-
 What is Wednesdaydudecoin?
 ----------------
 
@@ -15,7 +11,7 @@ out collectively by the network. Wednesdaydudecoin Core is the name of open sour
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Wednesdaydudecoin Core software, see [https://wednesdaydudecoin.org](https://wednesdaydudecoin.org).
+the Wednesdaydudecoin Core software.
 
 License
 -------
