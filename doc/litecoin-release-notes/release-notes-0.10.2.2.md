@@ -51,7 +51,11 @@ is included in as separate release-notes.  This section describes the Wednesdayd
 
 Protocol:
 - Scrypt Proof-of-Work instead of sha256d, however block hashes are sha256d for performance reasons.
+<<<<<<< HEAD
 - Wednesdaydudecoin TCP port 9669 (instead of 8333)
+=======
+- Wednesdaydudecoin TCP port 9333 (instead of 8333)
+>>>>>>> b533965b470a0bc12482b1e2b24487e167e38ce1
 - RPC TCP port 9332 (instead of 8332)
 - Testnet TCP port 19669 (instead of 18333)
 - Testnet RPC TCP port 19332 (instead of 18332)

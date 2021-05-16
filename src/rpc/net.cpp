@@ -320,7 +320,11 @@ static UniValue getaddednodeinfo(const JSONRPCRequest& request)
             "    \"connected\" : true|false,          (boolean) If connected\n"
             "    \"addresses\" : [                    (list of objects) Only when connected = true\n"
             "       {\n"
+<<<<<<< HEAD
             "         \"address\" : \"192.168.0.201:9669\",  (string) The wednesdaydudecoin server IP and port we're connected to\n"
+=======
+            "         \"address\" : \"192.168.0.201:9333\",  (string) The wednesdaydudecoin server IP and port we're connected to\n"
+>>>>>>> b533965b470a0bc12482b1e2b24487e167e38ce1
             "         \"connected\" : \"outbound\"           (string) connection, inbound or outbound\n"
             "       }\n"
             "     ]\n"

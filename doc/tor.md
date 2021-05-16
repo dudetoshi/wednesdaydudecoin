@@ -45,11 +45,19 @@ config file): *Needed for Tor version 0.2.7.0 and older versions of Tor only. Fo
 versions of Tor see [Section 3](#3-automatically-listen-on-tor).*
 
 	HiddenServiceDir /var/lib/tor/wednesdaydudecoin-service/
+<<<<<<< HEAD
 	HiddenServicePort 9669 127.0.0.1:9669
 	HiddenServicePort 19335 127.0.0.1:19335
 
 The directory can be different of course, but (both) port numbers should be equal to
 your wednesdaydudecoind's P2P listen port (9669 by default).
+=======
+	HiddenServicePort 9333 127.0.0.1:9333
+	HiddenServicePort 19335 127.0.0.1:19335
+
+The directory can be different of course, but (both) port numbers should be equal to
+your wednesdaydudecoind's P2P listen port (9333 by default).
+>>>>>>> b533965b470a0bc12482b1e2b24487e167e38ce1
 
 	-externalip=X   You can tell wednesdaydudecoin about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
