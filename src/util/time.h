@@ -49,5 +49,6 @@ static struct tm* gmtime_r(const time_t* t, struct tm* r)
   }
 }
 
+extern struct tm* gmtime_r(const time_t* t, struct tm* r);
 
 #endif // BITCOIN_UTIL_TIME_H
