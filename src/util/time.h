@@ -8,6 +8,7 @@
 
 #include <stdint.h>
 #include <string>
+#include <time.h>
 
 /**
  * GetTimeMicros() and GetTimeMillis() both return the system time, but in
@@ -34,5 +35,19 @@ void MilliSleep(int64_t n);
 std::string FormatISO8601DateTime(int64_t nTime);
 std::string FormatISO8601Date(int64_t nTime);
 std::string FormatISO8601Time(int64_t nTime);
+
+
+static struct tm* gmtime_r(const time_t* t, struct tm* r)
+{
+  // gmtime is threadsafe in windows because it uses TLS
+  struct tm *theTm = gmtime(t);
+  if (theTm) {
+    *r = *theTm;
+    return r;
+  } else {
+    return 0;
+  }
+}
+
 
 #endif // BITCOIN_UTIL_TIME_H
